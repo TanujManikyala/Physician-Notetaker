@@ -52,10 +52,6 @@ keybert>=0.7.0
 scikit-learn>=1.0
 numpy>=1.24
 regex>=2023.6.3
-huggingface-hub
-sentencepiece
-protobuf<5
-
 # Optional: use tf-keras if using TensorFlow backend / TF integrations in transformers
 # If you see Keras 3 incompatibility errors, install tf-keras:
 # tf-keras>=2.13.1
