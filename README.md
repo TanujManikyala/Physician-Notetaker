@@ -70,7 +70,7 @@ regex>=2023.6.3
 1. **Clone repo**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/TanujManikyala/Physician-Notetaker
    cd physician-notetaker
    ```
 
@@ -186,5 +186,6 @@ Your currently installed version of Keras is Keras 3, but this is not yet suppor
 
 * This project contains code snippets and utilities built for demonstration and clinical note drafting. Adjust for local policies and clinical governance before any production/clinical use.
 * For questions or issues, add an issue in the repo or contact the project maintainer.
+
 
 ---
