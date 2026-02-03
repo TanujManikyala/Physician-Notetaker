@@ -164,7 +164,6 @@ Your currently installed version of Keras is Keras 3, but this is not yet suppor
 2. Install `requirements.txt`.
 3. Run `streamlit run app.py` and open the UI.
 4. Paste your transcript in the UI and toggle stages (Entities, Keywords...).
-5. For debugging the keyword extractor directly:
 
    ```bash
    python -c "from nlp.keywords import extract_keywords; print(extract_keywords(open('data/sample_transcript.txt').read(), top_n=8))"
