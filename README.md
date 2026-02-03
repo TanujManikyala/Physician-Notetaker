@@ -172,20 +172,3 @@ Your currently installed version of Keras is Keras 3, but this is not yet suppor
 
 ---
 
-## Developer / Submission notes
-
-* Keep **only** one `requirements.txt` at the repo root (remove other `requirements-*.txt`).
-* The `nlp` package contains pure-Python fallbacks so the app still works when `transformers` / `keybert` are not installed.
-* If you plan to deploy to a server (Heroku/Streamlit Cloud), include the single `requirements.txt` and ensure the target environment has sufficient memory for optional heavy libs (or disable HF models).
-
-
-
----
-
-## License & contact
-
-* This project contains code snippets and utilities built for demonstration and clinical note drafting. Adjust for local policies and clinical governance before any production/clinical use.
-* For questions or issues, add an issue in the repo or contact the project maintainer.
-
-
----
